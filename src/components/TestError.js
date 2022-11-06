@@ -9,7 +9,7 @@ const TestError = () => {
   return (
     <div className="error-btn">
       <button onClick={() => setError(true)} className="btn error-boundary">
-        Error Boundary
+        ErrorBoundary
       </button>
     </div>
   );
