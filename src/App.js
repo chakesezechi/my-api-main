@@ -26,13 +26,13 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link to="/error" className="nav-link">
-                Error
+              <Link to="/testerror" className="nav-link">
+                ErrorBoundary
               </Link>
             </li>
             <li>
-              <Link to="/testerror" className="nav-link">
-                ErrorBoundary
+              <Link to="/error" className="nav-link">
+                Error
               </Link>
             </li>
           </ul>

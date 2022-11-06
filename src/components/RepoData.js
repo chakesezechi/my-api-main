@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const RepoData = ({ repo }) => {
   return (
     <div className="home">
-      
       <div className="home-cont">
         <h1>
           <span className="span">Repo:</span> {`${repo.name}`}
@@ -14,7 +13,7 @@ const RepoData = ({ repo }) => {
         </h3>
         <div className="error-btn">
           <Link to={`/repos/${repo.name}`} className="btn">
-            CheckOut Repo
+            Repo
           </Link>
         </div>
       </div>
